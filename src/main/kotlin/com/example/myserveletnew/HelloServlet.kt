@@ -14,7 +14,7 @@ class HelloServlet : HttpServlet() {
     public override fun doGet(request: HttpServletRequest, response: HttpServletResponse) {
         response.contentType = "text/html"
 
-        // Hello
+        // Hello 2025/11/04
         val out = response.writer
         out.println("<html><body>")
         out.println("<h1>$message</h1>")
